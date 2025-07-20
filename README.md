@@ -1,7 +1,7 @@
 # Microservices E-Commerce Application
 
 ## Overview
-This project is a event driven microservices-based e-commerce application consisting of User Service, Product Service, Order Service, and a GraphQL Gateway. It uses Kafka for event-driven communication between services and MongoDB for data storage.
+This project is a event driven microservices-based e-commerce application consisting of User Service, Product Service, Order Service,DLQ Service, and a GraphQL Gateway. It uses Kafka for event-driven communication between services and MongoDB for data storage.
 
 
 ## Flow Diagram
