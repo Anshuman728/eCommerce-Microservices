@@ -26,6 +26,7 @@ services:
       KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092,PLAINTEXT_HOST://0.0.0.0:29092
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_PROCESS_ROLES: broker
     healthcheck:
       test: ["CMD", "kafka-topics", "--list", "--bootstrap-server", "localhost:9092"]
       interval: 30s
